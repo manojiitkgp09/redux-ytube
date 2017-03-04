@@ -4,7 +4,7 @@ const VideoDetail = ({selectedVideo}) => {
  	if (!selectedVideo) { // evaluates to true if selectedVideo is null
     	return <div>Loading...</div>; 
   	}	
-	const url = "http://youtube.com/embed/"+selectedVideo.id.videoId;
+	const url = "https://youtube.com/embed/"+selectedVideo.id.videoId;
 	return (
 		<div className="col-md-8 video-detail">
 			<div className="embed-responsive embed-responsive-16by9">
