@@ -21051,7 +21051,7 @@
 				"Loading..."
 			);
 		}
-		var url = "http://youtube.com/embed/" + selectedVideo.id.videoId;
+		var url = "https://youtube.com/embed/" + selectedVideo.id.videoId;
 		return _react2.default.createElement(
 			"div",
 			{ className: "col-md-8 video-detail" },
